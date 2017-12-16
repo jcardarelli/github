@@ -21,7 +21,7 @@ directory for a directory called roles.
 
 ## Usage
 ```yml
-- hosts: all
+- hosts: localhost
 
   roles:
     - github/oauth-token
