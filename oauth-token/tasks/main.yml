@@ -1,2 +1,11 @@
 ---
 # tasks file for oauth-token
+
+- name: Create a new OAuth token with the GitHub Authorizations API
+  uri:
+    url: https://api.github.com/authorizations
+    user: "{{ user }}"
+    password: "{{ password }}"
+    method: POST
+    body: '{"scopes": ["repo", "user"], "note": "getting-started"}'
+       
