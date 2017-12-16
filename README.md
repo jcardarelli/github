@@ -6,7 +6,7 @@ Clone this repo to your ansible roles directory.
 
 Your ansible roles directory will be defined in your ansible.cfg file.
 
-Use this command to find the directory:
+### How to find your ansible roles directory:
 ```sh
 (ansible-latest) user@server:~/ansible/roles/github$ echo $ANSIBLE_CONFIG
 /home/user/ansible/ansible.cfg
